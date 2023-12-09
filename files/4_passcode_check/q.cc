@@ -6,6 +6,7 @@
 #include "q.h"
 
 // Implement each function of `q.h` here.
+// The PasscodeCheck function will check the strength of your input password. If your password contains either a number or lower case or upper case letter, the strength of your password will be higher. It will return the strength value of your password.
 
 int PasscodeCheck(const std::string& passcode) {
   const std::vector<std::function<bool(char)>> conditions = {
